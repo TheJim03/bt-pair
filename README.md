@@ -120,6 +120,8 @@ Both write `btpair.apk` next to the script and sign it with a throwaway key crea
 - NVIDIA SHIELD TV (2015/2017, `foster`), Android 11
 - Xiaomi XMRM-M3 remote ("Xiaomi RC")
 
+Pairing by address (`-e addr`) is what was tested on this setup. The device list was added afterwards and has not been tested on a SHIELD yet; if it stays empty, use the address method and please open an issue.
+
 It should work on other Android TV devices and remotes with the same symptom, but that is untested. The app targets an old API level on purpose and is meant for sideloading only.
 
 ## License

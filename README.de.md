@@ -120,6 +120,8 @@ Beide schreiben `btpair.apk` neben das Skript und signieren sie mit einem Wegwer
 - NVIDIA SHIELD TV (2015/2017, `foster`), Android 11
 - Xiaomi-Fernbedienung XMRM-M3 („Xiaomi RC“)
 
+Getestet wurde auf diesem Aufbau das Koppeln per Adresse (`-e addr`). Die Geräteliste kam danach hinzu und ist auf einer SHIELD noch nicht getestet; bleibt sie leer, nimm den Weg über die Adresse und eröffne bitte ein Issue.
+
 Auf anderen Android-TV-Geräten und mit anderen Fernbedienungen mit demselben Symptom sollte es ebenfalls funktionieren, getestet ist das aber nicht. Die App zielt absichtlich auf ein altes API-Level und ist nur zum Sideloaden gedacht.
 
 ## Lizenz
