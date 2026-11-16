@@ -1,4 +1,4 @@
-package com.github.shieldbtpair;
+package com.github.btpair;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -31,10 +31,10 @@ import java.util.List;
 import java.util.Locale;
 
 /**
- * Pairs a Bluetooth device that the Android TV "Add accessory" screen refuses
+ * Pairs a Bluetooth device that the Android TV accessory search refuses
  * to list. Either pick the device from the list, or pass its address:
  *
- *   adb shell am start -n com.github.shieldbtpair/.MainActivity -e addr AA:BB:CC:DD:EE:FF
+ *   adb shell am start -n com.github.btpair/.MainActivity -e addr AA:BB:CC:DD:EE:FF
  *
  * Optional: -e transport le|classic  (default: LE unless the device is known as Classic/Dual).
  *
