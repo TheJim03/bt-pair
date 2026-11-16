@@ -62,6 +62,23 @@ Eine winzige App, die alle Bluetooth-Geräte auflistet, die der Fernseher sieht,
    adb uninstall com.github.btpair
    ```
 
+### Ohne Computer
+
+Du kannst die APK auch direkt am Fernseher installieren und `adb` ganz weglassen:
+
+1. Am Fernseher eine Downloader-App aus dem Play Store installieren, zum Beispiel *Downloader by AFTVnews*, und ihr das Installieren unbekannter Apps erlauben, wenn Android fragt (*Einstellungen → Apps → Sicherheit & Einschränkungen → Unbekannte Quellen*).
+2. Diese Adresse im Downloader eingeben. Sie zeigt immer auf das neueste Release:
+
+   ```
+   https://github.com/TheJim03/bt-pair/releases/latest/download/btpair.apk
+   ```
+
+3. Installieren und *Öffnen* wählen. Später findest du die App unter *Einstellungen → Apps → BT Pair → Öffnen*; auf dem Startbildschirm hat sie keine Kachel.
+4. Die Standortberechtigung erlauben, wenn die App fragt, dann weiter mit Schritt 5 oben.
+5. Danach unter *Einstellungen → Apps → BT Pair* wieder deinstallieren.
+
+Die APK auf einen USB-Stick zu kopieren und am Fernseher mit einem Dateimanager zu öffnen, funktioniert genauso. Dieser Weg ist für dieses Projekt noch nicht getestet.
+
 ### Ohne Geräteliste
 
 Wer die Bluetooth-Adresse des Geräts schon kennt, lässt Schritt 3 weg und übergibt sie direkt:
@@ -93,7 +110,7 @@ Fernbedienungen ohne LED geben keine Rückmeldung, man verpasst den Modus also l
 
 | Fernbedienung | Etwa 5 Sekunden halten |
 |---|---|
-| Xiaomi XMRM-M3 („Xiaomi RC“) | Home + Zurück |
+| Xiaomi XMRM-M3 („Xiaomi RC“) | TV-Taste + Home |
 | Andere Xiaomi- / Mi-Box-Fernbedienungen | Home + Apps oder Home + Menü |
 
 Nur die erste Zeile wurde für dieses Projekt überprüft. Ergänzungen sind willkommen.

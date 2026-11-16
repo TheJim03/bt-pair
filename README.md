@@ -62,6 +62,23 @@ A tiny app that lists every Bluetooth device the TV can see and pairs the one yo
    adb uninstall com.github.btpair
    ```
 
+### Without a computer
+
+You can also install the APK on the TV directly and skip `adb` completely:
+
+1. Install a downloader app from the Play Store on the TV, for example *Downloader by AFTVnews*, and allow it to install unknown apps when Android asks (*Settings → Apps → Security & Restrictions → Unknown sources*).
+2. Enter this address in the downloader. It always points to the newest release:
+
+   ```
+   https://github.com/TheJim03/bt-pair/releases/latest/download/btpair.apk
+   ```
+
+3. Install and choose *Open*. Later you find the app under *Settings → Apps → BT Pair → Open*; it has no tile on the home screen.
+4. Allow the location permission when the app asks, then continue with step 5 above.
+5. Uninstall it afterwards under *Settings → Apps → BT Pair*.
+
+Copying the APK to a USB stick and opening it with a file manager on the TV works the same way. This route has not been tested for this project yet.
+
 ### Without the device list
 
 If you already know the device's Bluetooth address, skip step 3 and pass it directly:
@@ -93,7 +110,7 @@ Remotes without an LED give no feedback, so it is easy to miss. Combinations rep
 
 | Remote | Hold for about 5 seconds |
 |---|---|
-| Xiaomi XMRM-M3 ("Xiaomi RC") | Home + Back |
+| Xiaomi XMRM-M3 ("Xiaomi RC") | TV button + Home |
 | Other Xiaomi / Mi Box remotes | Home + Apps, or Home + Menu |
 
 Only the first row was verified for this project. Additions are welcome.
