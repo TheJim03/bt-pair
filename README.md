@@ -124,6 +124,8 @@ On Windows:
 
 Both write `btpair.apk` next to the script and sign it with a throwaway key created on your machine.
 
+The APKs on the Releases page are built the same way by [GitHub Actions](.github/workflows/release.yml) from the tagged source. Each build is signed with a fresh throwaway key, so uninstall an older version before installing a newer one.
+
 ## Tested with
 
 | TV device | Android | Remote | Result |

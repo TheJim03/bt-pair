@@ -124,6 +124,8 @@ Unter Windows:
 
 Beide schreiben `btpair.apk` neben das Skript und signieren sie mit einem Wegwerf-Schlüssel, der auf deinem Rechner erzeugt wird.
 
+Die APKs auf der Releases-Seite baut [GitHub Actions](.github/workflows/release.yml) auf dieselbe Weise aus dem getaggten Quelltext. Jeder Build wird mit einem neuen Wegwerf-Schlüssel signiert; deinstalliere deshalb eine ältere Version, bevor du eine neuere installierst.
+
 ## Getestet mit
 
 | TV-Gerät | Android | Fernbedienung | Ergebnis |
